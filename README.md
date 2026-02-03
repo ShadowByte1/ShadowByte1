@@ -13,12 +13,12 @@ I am a cybersecurity researcher and penetration tester from Australia. I special
 
 | ID | Package | Vulnerability | Impact | CVE |
 |---|---|---|---|---|
-| **[GHSA-vc9j-w4ch-7h3j](https://github.com/advisories/GHSA-vc9j-w4ch-7h3j)** | `Codazon Magento` | **Reflected XSS** | High severity XSS allowing arbitrary JavaScript execution via crafted payload in cat parameter. *Affects v1.1.0.0 - v2.4.7* | [CVE-2025-60991](https://nvd.nist.gov/vuln/detail/CVE-2025-60991) |
-| **[GHSA-jmc7-28c7-wx66](https://github.com/advisories/GHSA-jmc7-28c7-wx66)** | `Kissflow Platform` | **Stored XSS** | High severity stored XSS enabling privilege escalation and account takeover. *Affects v2.0 - v4.2* | [CVE-2025-57393](https://nvd.nist.gov/vuln/detail/CVE-2025-57393) |
-| **[GHSA-7q72-8f9r-v4mw](https://github.com/advisories/GHSA-7q72-8f9r-v4mw)** | `PoDoFo` | **Heap Use-After-Free** | High severity memory corruption in PdfTokenizer::ReadDictionary causing DoS via malformed PDF. *Affects v0.10.0 - v0.10.5* | [CVE-2025-46205](https://nvd.nist.gov/vuln/detail/CVE-2025-46205) |
-| **[GHSA-77h4-r63x-87f8](https://github.com/advisories/GHSA-77h4-r63x-87f8)** | `Poppler` | **Stack Overflow** | Moderate severity DoS via deeply nested PDF metadata structures causing uncontrolled recursion. *Affects v24.06.1 - v25.03.0* | [CVE-2025-43718](https://nvd.nist.gov/vuln/detail/CVE-2025-43718) |
-| **[GHSA-x867-qv23-g3mv](https://github.com/advisories/GHSA-x867-qv23-g3mv)** | `Neto CMS` | **CRLF Injection** | High severity HTTP response splitting allowing arbitrary code execution. *Affects v6.313.0 - v6.314.0* | [CVE-2025-28357](https://nvd.nist.gov/vuln/detail/CVE-2025-28357) |
-| **[GHSA-63m8-3cc3-jr6j](https://github.com/advisories/GHSA-63m8-3cc3-jr6j)** | `Neto E-Commerce` | **XSS** | Moderate severity XSS via kw parameter enabling privilege escalation. *Affects v6.313.0 - v6.3115* | [CVE-2024-57494](https://nvd.nist.gov/vuln/detail/CVE-2024-57494) |
+| **[GHSA-vc9j-w4ch-7h3j](https://github.com/advisories/GHSA-vc9j-w4ch-7h3j)** | `Codazon Magento` | **Reflected XSS** | XSS allowing arbitrary JavaScript execution via crafted payload in cat parameter. *Affects v1.1.0.0 - v2.4.7* | [CVE-2025-60991](https://nvd.nist.gov/vuln/detail/CVE-2025-60991) |
+| **[GHSA-jmc7-28c7-wx66](https://github.com/advisories/GHSA-jmc7-28c7-wx66)** | `Kissflow Platform` | **Stored XSS** | Stored XSS enabling privilege escalation account takeover and PII Data stolen. *Affects v2.0 - v4.2* | [CVE-2025-57393](https://nvd.nist.gov/vuln/detail/CVE-2025-57393) |
+| **[GHSA-7q72-8f9r-v4mw](https://github.com/advisories/GHSA-7q72-8f9r-v4mw)** | `PoDoFo` | **Heap Use-After-Free** | Memory corruption in PdfTokenizer::ReadDictionary causing DoS via malformed PDF. *Affects v0.10.0 - v0.10.5* | [CVE-2025-46205](https://nvd.nist.gov/vuln/detail/CVE-2025-46205) |
+| **[GHSA-77h4-r63x-87f8](https://github.com/advisories/GHSA-77h4-r63x-87f8)** | `Poppler` | **Stack Overflow** | DoS via deeply nested PDF metadata structures causing uncontrolled recursion. *Affects v24.06.1 - v25.03.0* | [CVE-2025-43718](https://nvd.nist.gov/vuln/detail/CVE-2025-43718) |
+| **[GHSA-x867-qv23-g3mv](https://github.com/advisories/GHSA-x867-qv23-g3mv)** | `Neto CMS` | **CRLF Injection** | HTTP response splitting allowing arbitrary code execution. *Affects v6.313.0 - v6.314.0* | [CVE-2025-28357](https://nvd.nist.gov/vuln/detail/CVE-2025-28357) |
+| **[GHSA-63m8-3cc3-jr6j](https://github.com/advisories/GHSA-63m8-3cc3-jr6j)** | `Neto E-Commerce` | **XSS** | XSS via kw parameter enabling privilege escalation. *Affects v6.313.0 - v6.3115* | [CVE-2024-57494](https://nvd.nist.gov/vuln/detail/CVE-2024-57494) |
 
 ## Technical Stack
 
