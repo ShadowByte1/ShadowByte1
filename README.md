@@ -2,7 +2,7 @@
 
 ### ShadowByte
 
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shadowpentesting@email.com)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shadowpentesting@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-ShadowByte1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShadowByte1)
 
 ## Professional Summary
