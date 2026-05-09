@@ -19,6 +19,7 @@ I am a cybersecurity researcher and penetration tester from Australia. I special
 | **[GHSA-77h4-r63x-87f8](https://github.com/advisories/GHSA-77h4-r63x-87f8)** | `Poppler` | **Stack Overflow** | DoS via deeply nested PDF metadata structures causing uncontrolled recursion. *Affects v24.06.1 - v25.03.0* | [CVE-2025-43718](https://nvd.nist.gov/vuln/detail/CVE-2025-43718) |
 | **[GHSA-x867-qv23-g3mv](https://github.com/advisories/GHSA-x867-qv23-g3mv)** | `Neto CMS` | **CRLF Injection** | HTTP response splitting allowing arbitrary code execution. *Affects v6.313.0 - v6.314.0* | [CVE-2025-28357](https://nvd.nist.gov/vuln/detail/CVE-2025-28357) |
 | **[GHSA-63m8-3cc3-jr6j](https://github.com/advisories/GHSA-63m8-3cc3-jr6j)** | `Neto E-Commerce` | **XSS** | XSS via kw parameter enabling privilege escalation. *Affects v6.313.0 - v6.3115* | [CVE-2024-57494](https://nvd.nist.gov/vuln/detail/CVE-2024-57494) |
+| **[GHSA-8rm2-7qqf-34qm](https://github.com/advisories/GHSA-8rm2-7qqf-34qm)** | `Prometheus` | **DoS** | Snappy-compressed remote read endpoint allocates memory without validating decoded length, allowing unauthenticated heap exhaustion. *Affects < v3.5.3, < v3.11.3* | [CVE-2026-42154](https://nvd.nist.gov/vuln/detail/CVE-2026-42154) |
 
 ## Technical Stack
 
