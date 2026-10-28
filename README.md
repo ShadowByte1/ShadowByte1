@@ -13,6 +13,7 @@ I am a cybersecurity researcher and penetration tester from Australia. I special
 
 | ID | Package | Vulnerability | Impact | CVE |
 |---|---|---|---|---|
+| **[GHSA-m3vr-7329-44ww](https://github.com/argoproj/argo-cd/security/advisories/GHSA-m3vr-7329-44ww)** | `Argo CD` | **Arbitrary File Read via Jsonnet Import** | Unconfined `import`/`importstr`/`importbin` in the repo-server Jsonnet evaluator allows reading any file the process can access, including `/proc/self/environ`, service account tokens, SSH keys, and repository credentials. Placing file contents in a ConfigMap bypasses Secret redaction. CVSS 9.9 Critical. *Affects v0.9.0 - v3.3.14, v3.4.0 - v3.4.9, v3.5.0 - v3.5.3* | [CVE-2026-113672](https://nvd.nist.gov/vuln/detail/CVE-2026-113672) |
 | **[GHSA-8jrg-wx88-g75j](https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-8jrg-wx88-g75j)** | `Zephyr RTOS (HTTP/2)` | **Out-of-bounds Write** | HTTP/2 static-filesystem handler aliases the receive-buffer length counter with on-disk file size, causing OOB read/write and `zsock_recv` length underflow. Reachable by any unauthenticated HTTP/2 GET; leads to memory corruption and potential code execution. CVSS 9.1 Critical. *Affects v4.0.0 - v4.4.2* | [CVE-2026-82391](https://nvd.nist.gov/vuln/detail/CVE-2026-82391) |
 | **[GHSA-7q72-8f9r-v4mw](https://github.com/advisories/GHSA-7q72-8f9r-v4mw)** | `PoDoFo` | **Heap Use-After-Free** | Memory corruption in PdfTokenizer::ReadDictionary causing DoS via malformed PDF. *Affects v0.10.0 - v0.10.5* | [CVE-2025-46205](https://nvd.nist.gov/vuln/detail/CVE-2025-46205) |
 | **[GHSA-77h4-r63x-87f8](https://github.com/advisories/GHSA-77h4-r63x-87f8)** | `Poppler` | **Stack Overflow** | DoS via deeply nested PDF metadata structures causing uncontrolled recursion. *Affects v24.06.1 - v25.03.0* | [CVE-2025-43718](https://nvd.nist.gov/vuln/detail/CVE-2025-43718) |
@@ -68,9 +69,9 @@ Repository documenting discovered vulnerabilities with technical analysis, PoCs,
 
 ## Research Highlights
 
-- **9 CVEs** published across multiple platforms and frameworks
+- **10 CVEs** published across multiple platforms and frameworks
 - **128+ stars** on XSS payload repository
-- Discovered vulnerabilities in: Poppler PDF library, PoDoFo, Neto CMS, Kissflow, Codazon Magento themes, Prometheus, Zephyr RTOS
+- Discovered vulnerabilities in: Argo CD, Zephyr RTOS, Poppler PDF library, PoDoFo, Prometheus, Neto CMS, Kissflow, Codazon Magento themes
 - Focus areas: Memory corruption bugs, web application security, API fuzzing, binary analysis, embedded/RTOS security
 
 ## Activity
