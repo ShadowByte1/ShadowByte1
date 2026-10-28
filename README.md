@@ -20,6 +20,8 @@ I am a cybersecurity researcher and penetration tester from Australia. I special
 | **[GHSA-x867-qv23-g3mv](https://github.com/advisories/GHSA-x867-qv23-g3mv)** | `Neto CMS` | **CRLF Injection** | HTTP response splitting allowing arbitrary code execution. *Affects v6.313.0 - v6.314.0* | [CVE-2025-28357](https://nvd.nist.gov/vuln/detail/CVE-2025-28357) |
 | **[GHSA-63m8-3cc3-jr6j](https://github.com/advisories/GHSA-63m8-3cc3-jr6j)** | `Neto E-Commerce` | **XSS** | XSS via kw parameter enabling privilege escalation. *Affects v6.313.0 - v6.3115* | [CVE-2024-57494](https://nvd.nist.gov/vuln/detail/CVE-2024-57494) |
 | **[GHSA-8rm2-7qqf-34qm](https://github.com/advisories/GHSA-8rm2-7qqf-34qm)** | `Prometheus` | **DoS** | Snappy-compressed remote read endpoint allocates memory without validating decoded length, allowing unauthenticated heap exhaustion. *Affects < v3.5.3, < v3.11.3* | [CVE-2026-42154](https://nvd.nist.gov/vuln/detail/CVE-2026-42154) |
+| **[GHSA-w8h4-r8m3-rf5j](https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-w8h4-r8m3-rf5j)** | `Zephyr RTOS (WireGuard)` | **Off-path Tunnel Hijack** | `handle_transport_data()` overwrites `peer->endpoint` from an unauthenticated 16-byte UDP datagram, redirecting all handshake initiations and tunnel traffic to the attacker with no prior session required. CVSS 8.2 High. *Affects v4.4.0 - v4.4.2* | [CVE-2026-79977](https://nvd.nist.gov/vuln/detail/CVE-2026-79977) |
+| **[GHSA-8jrg-wx88-g75j](https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-8jrg-wx88-g75j)** | `Zephyr RTOS (HTTP/2)` | **Out-of-bounds Write** | HTTP/2 static-filesystem handler aliases the receive-buffer length counter with on-disk file size, causing OOB read/write and `zsock_recv` length underflow. Reachable by any unauthenticated HTTP/2 GET; leads to memory corruption and potential code execution. CVSS 9.1 Critical. *Affects v4.0.0 - v4.4.2* | [CVE-2026-82391](https://nvd.nist.gov/vuln/detail/CVE-2026-82391) |
 
 ## Technical Stack
 
@@ -66,10 +68,10 @@ Repository documenting discovered vulnerabilities with technical analysis, PoCs,
 
 ## Research Highlights
 
-- **6 CVEs** published across multiple platforms and frameworks
+- **9 CVEs** published across multiple platforms and frameworks
 - **128+ stars** on XSS payload repository
-- Discovered vulnerabilities in: Poppler PDF library, PoDoFo, Neto CMS, Kissflow, Codazon Magento themes
-- Focus areas: Memory corruption bugs, web application security, API fuzzing, binary analysis
+- Discovered vulnerabilities in: Poppler PDF library, PoDoFo, Neto CMS, Kissflow, Codazon Magento themes, Prometheus, Zephyr RTOS
+- Focus areas: Memory corruption bugs, web application security, API fuzzing, binary analysis, embedded/RTOS security
 
 ## Activity
 
@@ -85,4 +87,3 @@ I'm interested in collaborating on security research, CTF competitions, and vuln
 - Responsible disclosure coordination
 
 ---
-
